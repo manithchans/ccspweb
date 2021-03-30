@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCSP :: HomePage</title>
+
+  <link rel="stylesheet" href="ccsp.css">
+
+  <!--Social Media Icon-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Google Font Link-->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <!--header-->
+  <div>
+    <!--Social Media Icon-->
+    <div id="socialMediaIcon">
+      <a href="https://facebook.com/ccspataupp" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://instagram.com/ccspwetogether" target="_blank" class="fa fa-instagram"></a>
+      <a href="mailto:ccsp@aupp.edu.com" class="fa fa-google"></a>
+      <a href="https://www.youtube.com/channel/UCaHkhU7LV2rnzsfiAJBO0TQ" target="_blank" class="fa fa-youtube"></a>
+    </div>
+
+    <!--Top-Logo-->
+    <div>
+      <a href="index.html">
+        <img src="Photo/CCSPHorizontallogo.png" alt="CCSP virticle logo" id="logo">
+      </a>
+    </div>
+  </div>
+
+  <!-- Navigation Bar-->
+  <ul>
+    <li class="active"><a href="index.html">HOME</a></li>
+    <li><a href="ourStory.html">OUR STORY</a></li>
+    <li><a href="News_Events.html">NEWS / EVENTS</a></li>
+    <li><a href="Gallery.html">GALLERY</a></li>
+    <li><a href="contactUs.html"> CONTACT US</a></li>
+    <li><a href="JoinUs.html">JOIN US</a></li>
+  </ul>
+
+  <!--Cover-->
+  <div class="slideshow-container">
+
+    <div class="dotcenter">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!--Cover1-->
+    <div class="mySlides fade">
+      <div class="cover1">
+        <h6 class="SubtextCover">COMMITTEE FOR COMMUNITY SERVICE PROGRAM SLOGAN</h6>
+        <h1 class="textCover">Togther We Make <br>Things Better</h1>
+        <a href="JoinUs.html" class="JoinUsbox">
+          <h4>JOIN US</h4>
+        </a>
+      </div>
+    </div>
+    <!--Cover2-->
+    <div class="mySlides fade">
+      <div class="cover2">
+        <h6 class="SubtextCover">WHY SHOULD YOU JOIN COMMITTEE FOR COMMUNITY SERVICE?</h6>
+        <h1 class="textCover">Gain Hands-on Experiences</h1>
+        <a href="ourStory.html" class="JoinUsbox">
+          <h4>Learn More</h4>
+        </a>
+      </div>
+    </div>
+    <!--Cover3-->
+    <div class="mySlides fade">
+      <div class="cover3">
+        <h6 class="SubtextCover">CCSP DISTACNE LEARNING PROGRAM</h6>
+        <h1 class="textCover">Learning English <br>From Home</h1>
+        <a href="https://www.facebook.com/ccspataupp" target="_blank" class="JoinUsbox">
+          <h4>Learn Here</h4>
+        </a>
+      </div>
+    </div>
+
+    <!--arrow-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!--JS cover slideshow-->
+    <script src="ccsp.js"></script>
+  </div>
+
+  <!--Mission-->
+  <div>
+    <p id="title">OUR MISSION</p>
+    <p class="paragraph">
+      Initiated by students at American University of Phnom Penh (AUPP), Committee for Community Service Program (CCSP) is a student-led program, which aims to make positive change in local community through youth volunteerism and community
+      engagement.
+    </p>
+
+    <div class="row">
+      <!--M1-->
+      <div class="column3">
+        <p class="NewsTitle">Youth Volunteerism</p>
+        <a href="Photo/MissionIcon/0.png">
+          <p><img src="Photo/MissionIcon/0.png"></p>
+        </a>
+        <p class="NewsCaption">In 2016, CCSP started off by establishing an English Teaching Department. We seeks to provide hands-on experiences for youths to volunteer as English teachers.
+      </div>
+
+      <!--M2-->
+      <div class="column3">
+        <p class="NewsTitle">Community Engagement</p>
+        <a href="Photo/MissionIcon/1.png">
+          <p>
+            <img src="Photo/MissionIcon/1.png">
+          </p>
+        </a>
+        <p class="NewsCaption">We also intends to fill gaps amidst a shortage of English teachers at local primary schools. We has successfully conducted two English teaching programs at two public primary schools.</p>
+      </div>
+
+      <!--M3-->
+      <div class="column3">
+        <p class="NewsTitle">Spread Health Awareness</p>
+        <a href="Photo/MissionIcon/2.png">
+          <p><img src="Photo/MissionIcon/2.png"></p>
+        </a>
+        <p class="NewsCaption">CCSP aims to establish its newly-formed Health Workshop Department, which possesses the mission to raise awareness on various health-related topics to our students.
+        </p>
+      </div>
+    </div>
+    <a href="ourStory.html" class="readmore">READ MORE</a>
+  </div>
+
+
+  <!--Quote1-->
+  <div class="fixed-bg1">
+    <h5 class="Quotetext">CCSP is looking forward to bringing best efforts and dedication to serve the community in any way possible.</h5>
+  </div>
+
+  <!--LATES NEWS AND EVENTS-->
+  <div>
+    <p id="title">LATES NEWS/EVENTS</p>
+    <div class="row">
+      <!--News1-->
+      <div class="column2">
+        <a href="News1.html">
+          <img src="Photo/NewsPage/1.jpg" alt="CCSP Distance Learning Program">
+        </a>
+        <a href="News1.html">
+          <p class="NewsTitle">CCSP Distance Learning Program</p>
+        </a>
+        <p class="NewsCaption">Learn English with CCSP is a new program, created by CCSP for everyone especially children to learn English and for those who want to expand the knowledge of English Language. During this virus outbreak, ... <a
+            href="News1.html" class="readmoreInnews">Read More.</a></p>
+      </div>
+
+      <!--News2-->
+      <div class="column2">
+        <a href="News2.html">
+          <img src="Photo/NewsPage/2.jpg" alt="Covid-19 Prevention Workshop">
+          <p class="NewsTitle">Covid-19 Prevention Workshop</p>
+        </a>
+        <p class="NewsCaption">Last week, CCSP hosted a workshop with our students at Phnom Penh Thmey Primary School. which was under a hot topic about the new outbreak of Coronavirus. It was such a meaningful and educational
+          ... <a href="News2.html" class="readmoreInnews">Read More.</a></p>
+      </div>
+
+      <!--News3-->
+      <div class="column2">
+        <a href="News3.html">
+          <img src="Photo/NewsPage/3.jpg" alt="New logo of ccsp">
+          <p class="NewsTitle">CCSP Changed its logo to NEW</p>
+        </a>
+        <p class="NewsCaption">As the time is keep running, and world is changing at fast pace, it is time that our community programe to have a new modern and colorize color which sybolize the growth and brighter future of our community ... <a
+            href="News3.html" class="readmoreInnews">Read More.</a></p>
+      </div>
+
+      <a href="News_Events.html" class="readmore">READ MORE</a>
+    </div>
+  </div>
+
+  <!--Video-->
+  <div class="padding">
+    <div class="parent">
+      <div class="child">
+        <div class="content">
+          <p id="title">ACTIVITIES VIDEO</p>
+          <p id="ourStory" class="justify">
+            This is an video showing how our potential volunteers (the student of AUPP) put many efforts in contributing to society by spending their weekend on Saturday to teach English to children at local primary school for a whole academic
+            year.They are very happy and have a wonderful interaction with their students.
+          </p>
+        </div>
+      </div>
+
+      <div class="child2">
+        <div class="content">
+          <video controls>
+            <source src="Video/ccsp.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+  <!--Quote2-->
+  <div class="fixed-bg2">
+    <table class="Status">
+      <tr>
+        <th>5+</th>
+        <th>300+</th>
+        <th>3000+</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <td>Total Years</td>
+        <td>Total Volunteers</td>
+        <td>Total Students</td>
+        <td>Total Schools</td>
+      </tr>
+    </table>
+  </div>
+
+
+  <!--Gallery-->
+  <div>
+    <p id="title">GALLERY</p>
+    <p class="paragraph">
+      These are activities that we always do in the class. Students are hard-working and curious to learn English with our volunteers. They respect us like they respect their teacher. Everyone is happy to learn new things through out the day.
+    </p>
+    <div class="row">
+      <div class="column">
+        <a href="Photo/Gallery/1.jpg">
+          <img src="Photo/Gallery/1.jpg">
+        </a>
+        <a href="Photo/Gallery/2.jpg">
+          <img src="Photo/Gallery/2.jpg">
+      </div>
+      <div class="column">
+        <a href="Photo/Gallery/3.jpg">
+          <img src="Photo/Gallery/3.jpg"></a>
+        <a href="Photo/Gallery/4.jpg">
+          <img src="Photo/Gallery/4.jpg"></a>
+      </div>
+      <div class="column">
+        <a href="Photo/Gallery/5.jpg">
+          <img src="Photo/Gallery/5.jpg"></a>
+        <a href="Photo/Gallery/6.jpg">
+          <img src="Photo/Gallery/6.jpg"></a>
+      </div>
+      <div class="column">
+        <a href="Photo/Gallery/7.jpg">
+          <img src="Photo/Gallery/7.jpg"></a>
+        <a href="Photo/Gallery/8.jpg">
+          <img src="Photo/Gallery/8.jpg"></a>
+      </div>
+    </div>
+
+    <a href="Gallery.html" class="readmore">VIEW MORE</a>
+  </div>
+
+  <!--Our team-->
+  <div>
+    <p id="title">OUR TEAM</p>
+    <p class="paragraph">
+      This our CCSP team of the academic year 2019-2020. We are following our Khmer Learning Curiculum, our students are divided into 2 shift which are morning and afternoon. Therefore, CCSP also have 2 shift as well. Each shift we teach
+      English
+      to
+      Grade 6 students for 4 class and each class contains about 50-60 students. Eventhough, teaching children is not easy, we are very happy to be there.
+    </p>
+    <div class="padding">
+      <a href="Photo/ourteam.jpg">
+        <img src="Photo/ourteam.jpg" alt="Picture of our team" width="90%" class="imgCenter">
+      </a>
+
+    </div>
+
+  </div>
+
+  <!--Quote3-->
+  <div class="fixed-bg3">
+    <p class="SubQuote3">BECOME A VOLUNTEER</p>
+    <p class="Quotetext3">Subscribe to Stay Informed.</p>
+    <form action="Submitted.html">
+      <input type="email" id="email" name="email" placeholder="Enter your E-mail" required="required" height="50px" size="70%">
+      <br><br>
+      <input type="submit" value="SUBSCRIBE">
+    </form>
+  </div>
+
+  <!--ContactUs-->
+  <div>
+    <p id="title">CONTACT US</p>
+    <p class="paragraph">
+      Our main office is located in the American University of Phnom Penh Building. If you have any question regarding our committee, please reach us through the information we provided below.
+    </p>
+    <p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m10!1m3!1d1354716!2d170.8843056!3d-45.3260829!2m1!2f19.07!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x31095177ee61fd7d%3A0xa66cfdf83a58b2ae!2sAmerican%20University%20of%20Phnom%20Penh!5e1!3m2!1sen!2skh!4v1588868057813!5m2!1sen!2skh"
+        width="90%" height="450" frameborder="0" aria-hidden="false" tabindex="0"></iframe>
+    </p>
+
+    <table class="Address">
+      <tr>
+        <th>Address</th>
+        <th>E-mail</th>
+        <th>Phone</th>
+      </tr>
+      <tr>
+        <td>AUPP Building</td>
+        <td>ccsp@aupp.edu.kh</td>
+        <td>(+855)23 512 890</td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th> <a href="https://facebook.com/ccspataupp" class="fa fa-facebook" target="_blank"></a></th>
+        <th><a href="https://instagram.com/ccspwetogether" target="_blank" class="fa fa-instagram"></a></th>
+        <th><a href="mailto:ccsp@aupp.edu.com" class="fa fa-google"></a></th>
+        <th><a href="https://www.youtube.com/channel/UCaHkhU7LV2rnzsfiAJBO0TQ" target="_blank" class="fa fa-youtube"></a></th>
+      </tr>
+    </table>
+
+  </div>
+
+  <!--Footer-->
+  <footer>
+
+    <div class="footer">
+      <a href="index.html">
+        <img src="Photo/CCSPHorizontallogoWhite.png" alt="" class="imgFoot">
+      </a>
+      <hr>
+      <p class="textFoot">Copyright © 2020 By Chanmanith Chap, all rights reserved.</p>
+    </div>
+
+
+
+  </footer>
+
+</body>
+
+</html>
